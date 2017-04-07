@@ -33,7 +33,6 @@ try {
      * Handle the request
      */
     $application = new \Phalcon\Mvc\Application($di);
-
     echo $application->handle()->getContent();
 
 } catch (\Exception $e) {

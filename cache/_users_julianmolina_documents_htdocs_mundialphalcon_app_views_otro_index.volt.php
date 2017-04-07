@@ -1,0 +1,2 @@
+EJECUTÓ INDEX<BR>
+<?= $name ?>

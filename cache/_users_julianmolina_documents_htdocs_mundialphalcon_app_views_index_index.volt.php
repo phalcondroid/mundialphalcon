@@ -1,5 +1,5 @@
 
-<a href="{{ url("index/verArbitros") }}" class="btn btn-success pull-right">
+<a href="<?= $this->url->get('index/verArbitros') ?>" class="btn btn-success pull-right">
 Ver Arbitros
 </a>
 
@@ -25,21 +25,21 @@ Ver Arbitros
         </tr>
     </thead>
     <tbody>
-        {% for item in varPartidos %}
+        <?php foreach ($varPartidos as $item) { ?>
             <tr>
                 <td>
-                    {{ item["e1"] }}
+                    <?= $item['e1'] ?>
                 </td>
                 <td>
                     vs
                 </td>
                 <td>
-                    {{ item["e2"] }}
+                    <?= $item['e2'] ?>
                 </td>
                 <td>
-                    {{ item["arbitro"] }}
+                    <?= $item['arbitro'] ?>
                 </td>
             </tr>
-        {% endfor %}
+        <?php } ?>
     </tbody>
 </table>

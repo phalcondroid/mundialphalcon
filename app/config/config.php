@@ -12,7 +12,7 @@ return new \Phalcon\Config([
         'host'        => 'localhost',
         'username'    => 'root',
         'password'    => '',
-        'dbname'      => 'test',
+        'dbname'      => 'mundial',
         'charset'     => 'utf8',
     ],
     'application' => [
@@ -25,5 +25,8 @@ return new \Phalcon\Config([
         'libraryDir'     => APP_PATH . '/library/',
         'cacheDir'       => BASE_PATH . '/cache/',
         'baseUri'        => '/mundialphalcon/',
-    ]
+    ],
+    "myconfig" => array(
+        "name" => "julian"
+    )
 ]);
