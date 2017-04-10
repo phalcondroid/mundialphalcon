@@ -1,5 +1,5 @@
 
-<a href="<?= $this->url->get('index/verArbitros') ?>" class="btn btn-success pull-right">
+<a href="<?= $this->url->get('arbitro/index') ?>" class="btn btn-success pull-right">
 Ver Arbitros
 </a>
 

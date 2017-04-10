@@ -10,6 +10,7 @@
     </head>
     <body>
         <div class="container">
+            <?= $this->flash->output() ?>
             <?= $this->getContent() ?>
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

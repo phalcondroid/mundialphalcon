@@ -10,6 +10,7 @@
     </head>
     <body>
         <div class="container">
+            {{ flash.output() }}
             {{ content() }}
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

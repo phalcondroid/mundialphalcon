@@ -1,5 +1,5 @@
 
-<a href="{{ url("index/verArbitros") }}" class="btn btn-success pull-right">
+<a href="{{ url("arbitro/index") }}" class="btn btn-success pull-right">
 Ver Arbitros
 </a>
 

@@ -1,2 +1,0 @@
-EJECUTÓ INDEX<BR>
-{{name}}

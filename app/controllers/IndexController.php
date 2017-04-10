@@ -21,20 +21,4 @@ class IndexController extends ControllerBase
         }
         $this->view->varPartidos = $resultadoFinal;
     }
-
-    public function verArbitrosAction()
-    {
-        $arbitros = Arbitro::find();
-        $result = array();
-
-        foreach ($arbitros as $item) {
-            $pais = Pais::findFirstByIdPais($item->id_pais);
-            $result[] = array(
-                "pais" => $pais->pais,
-                "nombre" => $item->nombre
-            );
-        }
-        
-        $this->view->arbitros = (object) $result;
-    }
 }
